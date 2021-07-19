@@ -833,7 +833,7 @@
 
   <include name="snippets/remove.xml" />
 
-  <include name="snippets/havoc.xml" />
+  <include name="snippets/daemon.xml" />
   <include name="snippets/lineage.xml" />
 
 </manifest>
