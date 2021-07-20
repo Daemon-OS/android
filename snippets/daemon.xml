@@ -5,7 +5,7 @@
            fetch=".." />
 
   <remote  name="dos-ssh"
-           fetch="git@github.com:Daemon-OS"
+           fetch="ssh://git@github.com/Daemon-OS"
            revision="reactor" />
 
 
@@ -40,8 +40,8 @@
   <!-- Device -->
   <project path="device/havoc/sepolicy" name="platform_device_havoc_sepolicy" remote="dos-ssh" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="dos-ssh" />
-  <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy" remote="dos-ssh" revision="eleven-legacy" />
-  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" remote="dos-ssh" revision="eleven-legacy-um" />
+  <project path="device/qcom/sepolicy-legacy" name="platform_device_qcom_sepolicy" remote="dos-ssh" revision="reactor-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy" remote="dos-ssh" revision="reactor-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="dos-ssh" />
 
   <!-- External -->
